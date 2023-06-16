@@ -18,7 +18,7 @@ for filename in os.listdir(directory):
             if len(text) <= 10 and len(text) > 0  and "lb" not in text:
                 fruit_name = "name: " + text
                 names.append(fruit_name)
-            if lbs in text:
+            if "lbs" in text:
                 fruit_weight = "weight: " + text
                 weights.append(fruit_weight)
 
